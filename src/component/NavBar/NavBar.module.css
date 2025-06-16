@@ -30,11 +30,12 @@
 
 .navLiLg a,
 .navLiSM a {
+  font-family: "Work Sans", sans-serif;
   color: var(--color2);
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 500;
   transition: color;
   transition-duration: 100ms;
   transition-timing-function: ease-in-out;

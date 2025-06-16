@@ -1,7 +1,12 @@
 import React from "react";
+import PageTitle from "../../section/PageTitle";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <PageTitle title={"About"} />
+    </div>
+  );
 };
 
 export default About;

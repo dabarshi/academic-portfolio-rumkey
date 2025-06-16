@@ -51,19 +51,19 @@ const NavBar = () => {
         isScrolled ? styles.navScroll : styles.navTamporary
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
         <div className="flex justify-between items-center h-20">
           {/* Brand Logo */}
           <Link to={"/"}>
-            <div className="">
-              <h1 className="font-semibold tracking-widest text-lg text-[#be6d54]">
-                Janatul Rumkey PhD
+            <div className="font-['Work Sans']">
+              <h1 className="font-medium text-3xl text-[#be6d54] drop-shadow-2xl">
+                Jannatul Rumky
               </h1>
-              <p className="text-sm tracking-wider text-[#be6d54]">
-                Department of History,
+              <p className="text-sm text-[#be6d54] drop-shadow-2xl">
+                Post-doctoral Researcher,
               </p>
-              <p className="text-sm tracking-wider text-[#be6d54]">
-                Greenhill University, CA
+              <p className="text-sm text-[#be6d54] drop-shadow-2xl">
+                Cornell University
               </p>
             </div>
           </Link>

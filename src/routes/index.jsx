@@ -8,6 +8,7 @@ import Media from "../pages/Media";
 import Blog from "../pages/Blog";
 import Events from "../pages/Events";
 import Contact from "../pages/Contact";
+import BlogPost from "../pages/BlogPost";
 
 // Function to check authentication with the backend
 
@@ -39,6 +40,10 @@ export const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <Blog />,
+      },
+      {
+        path: "/blogs/:id",
+        element: <BlogPost />,
       },
       {
         path: "/events",

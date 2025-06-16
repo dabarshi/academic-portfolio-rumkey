@@ -9,23 +9,23 @@ const MainHeroSection = () => {
           {/* Hero Section Container */}
           <div className="grid bg-[#0b322b]">
             {/* Content */}
-            <div className="grid md:grid-cols-2 md:grid-rows-3 pt-4 md:pb-16">
-              <h1 className="text-[#be6d54] text-center md:text-start md:mt-auto font-bold text-4xl z-10">
-                <span>Janatul</span>
-                <span className="block">Rumkey PhD</span>
+            <div className="grid font-['Work Sans'] md:grid-cols-2 md:grid-rows-3 pt-4 md:pb-16">
+              <h1
+                className="text-[#ff2222] text-center md:text-start md:mt-auto font-bold text-3xl md:text-6xl z-10"
+                style={{ textShadow: "0px 2px 2px rgba(0, 0, 0, 0.4)" }}
+              >
+                Jannatul Rumky
               </h1>
-              <figure className="p-6 md:-mt-20 md:p-0 md:mr-8 md:row-span-3 md:-order-1 max-w-[480px] mx-auto">
-                <img className="w-full" src="/image.avif" alt="" />
+              <figure className="p-6 md:-mt-20 md:p-0 md:mr-5 max-w-[400px] md:row-span-3 md:-order-1 mx-auto rounded-[44px]">
+                <img className="w-full rounded-[44px]" src="/dp.png" alt="" />
               </figure>
-              <p className="text-white text-center md:text-start md:mx-6 my-2">
-                Department of History,
-                <span className="block md:inline-block md:ps-1">
-                  Greenhill University, CA
-                </span>
+              <p className="text-white md:font-light text-center md:text-start md:ms-4 my-4">
+                Post-doctoral Researcher,{" "}
+                <span className="block md:flex">Cornell University</span>
               </p>
-              <div className="text-center md:text-start md:mt-auto my-4 md:my-0">
+              <div className="text-center md:text-start md:mt-auto my-4 md:my-0 md:ms-4">
                 <Link to="/about">
-                  <button className="text-white cursor-pointer font-semibold">
+                  <button className="text-white cursor-pointer font-light">
                     Read All
                   </button>
                 </Link>
